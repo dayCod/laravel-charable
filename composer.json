@@ -1,0 +1,28 @@
+{
+    "name": "daycode/charable",
+    "description": "Get expected return value from char such as Alphabetic, Alphanumeric, Digit, Upper and Lower Case",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dayCod"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DayCod\\Charable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DayCod\\Charable\\CharableServiceProvider"
+            ],
+            "aliases": {
+                "Charable": "DayCod\\Charable\\Charable"
+            }
+        }
+    }
+}
