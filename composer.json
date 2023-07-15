@@ -5,7 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "dayCod"
+            "name": "dayCod",
+            "email": "alayarahman07@gmail.com"
         }
     ],
     "minimum-stability": "dev",
