@@ -11,11 +11,21 @@ composer update
 ```
 Go to config/app.php, then put these code on service providers
 ```php
-DayCod\Charable\CharableServiceProvider::class,
+'providers' => [
+    /*
+    * Package Service Providers...
+    */
+    DayCod\Charable\CharableServiceProvider::class,
+],
 ```
 Put this code also on the class aliases
 ```php
-'Charable'=> DayCod\Charable\CharableFacade::class,
+'aliases' => [
+    /*
+    * Class Aliases
+    */
+    'Charable'=> DayCod\Charable\Charable::class,
+],
 ```
 
 
