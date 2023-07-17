@@ -9,7 +9,7 @@ class BaseCharable
      *
      * @return bool
      */
-    public function hasAlphabet(string $text): bool
+    public function isAlphabet(string $text): bool
     {
         return \is_string($text) && '' !== $text && !preg_match('/[^A-Za-z]/', $text);
     }
@@ -19,7 +19,7 @@ class BaseCharable
      *
      * @return bool
      */
-    public function hasNumberOrDigit(string $text): bool
+    public function isNumberOrDigit(string $text): bool
     {
         return \is_string($text) && '' !== $text && !preg_match('/[^0-9]/', $text);
     }
@@ -29,7 +29,7 @@ class BaseCharable
      *
      * @return bool
      */
-    public function hasLowerAlphabet(string $text): bool
+    public function isLowerAlphabet(string $text): bool
     {
         return \is_string($text) && '' !== $text && !preg_match('/[^a-z]/', $text);
     }
@@ -39,7 +39,7 @@ class BaseCharable
      *
      * @return bool
      */
-    public function hasUpperAlphabet(string $text): bool
+    public function isUpperAlphabet(string $text): bool
     {
         return \is_string($text) && '' !== $text && !preg_match('/[^A-Z]/', $text);
     }
@@ -49,7 +49,7 @@ class BaseCharable
      *
      * @return bool
      */
-    public function hasAlphabetNumeric(string $text): bool
+    public function isAlphabetNumeric(string $text): bool
     {
         return \is_string($text) && '' !== $text && !preg_match('/[^A-Za-z0-9]/', $text);
     }
