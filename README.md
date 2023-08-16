@@ -80,6 +80,10 @@ Charable::getOnlyAlphabetNumeric(string $char, bool $remove_whitespace = false);
 
 ```
 
+## Credits
+- [Wirandra Alaya](https://github.com/dayCod)
+- [See all Contributor](https://github.com/dayCod/laravel-charable/contributors)
+
 ## Tested on 
 | Release                | Supported Versions |
 |------------------------|--------------------|
